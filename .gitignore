@@ -1,0 +1,17 @@
+# Ignore Backups folder
+**/*-backups/
+
+# Ignore cached files
+*.lck
+
+# Ignore DS Store Files
+.DS_Stor*
+
+# Ignore Momentary Backups
+*.kicad_prl
+
+# Ignore Logs
+*.log 
+
+# Ignore Cache
+fp-info-cache 

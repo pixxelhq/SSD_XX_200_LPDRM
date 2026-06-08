@@ -1,0 +1,333 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "75cb77c3-5cc7-465d-8913-c3025f73381b")
+	(paper "A4")
+	(title_block
+		(title "SSD_XX_200_LPDRM")
+		(comment 1 "Vipul Singh")
+	)
+	(lib_symbols)
+	(sheet
+		(at 128.27 48.26)
+		(size 40.64 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0130dfc2-0545-49fd-8ee3-f355215951b4")
+		(property "Sheetname" "Control Switches"
+			(at 128.27 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Subsheets/Control Switches.kicad_sch"
+			(at 128.27 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 48.26)
+		(size 40.64 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1606618f-5bf4-49c6-b15a-3a19bc7580c9")
+		(property "Sheetname" "ADC"
+			(at 189.23 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Subsheets/ADC.kicad_sch"
+			(at 189.23 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 48.26)
+		(size 40.64 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b718872-8a3b-4915-bd10-0e9e5cf53dc3")
+		(property "Sheetname" "Power Section"
+			(at 67.31 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Subsheets/Power Section.kicad_sch"
+			(at 67.31 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 86.36)
+		(size 40.64 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "83516c41-48c7-47eb-bb42-a497d2c529e0")
+		(property "Sheetname" "GPIO Expanders"
+			(at 67.31 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Subshhets/GPIO Expanders.kicad_sch"
+			(at 67.31 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 87.63)
+		(size 40.64 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b66810da-8593-4960-bbf2-a98a67a4ee9f")
+		(property "Sheetname" "B2B and Peripheral Connectors"
+			(at 128.27 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Subsheets/B2B and Peripheral Connectors.kicad_sch"
+			(at 128.27 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 87.63)
+		(size 40.64 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d969f29c-acc6-43ad-9e45-6c7be25ff5b4")
+		(property "Sheetname" "Misc"
+			(at 189.23 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Subsheets/Misc.kicad_sch"
+			(at 189.23 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "Schematic-Page-Template.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WC0KpVhAAqoQBgm0BgX2kQTGTu0WtFR8esnsGfG4crhX0T25pZcZgQBBA+j1CoyigodAkIB
+				QwGaettDaxPZku/Ivs2Mz8vLM0zSM7kMrNbPcK1uhZmmxwmMqi6SlYwBtASm1OcSmBAUIJePIt/V
+				2f8kpRIipIPskM3uHi0NFi4qVLjgwFIRcSlh9DeEEvnwqDgwGU/ajghvIiQilwjFEplQwlKiIxKC
+				ImlgEFxKVEIiFEyGBhEMggaGw2IIODKYjQll0uHATCiRkIglYsFMPCInMgwCfB6QEEGCKR7MhQMG
+				GDIMhYsOHTAwpIaLiwgZqnauAgMLFxQwIEwgbEw6IpeJyUN1QUEDhoaOy0SDy8UxMReJRETGAAUr
+				BnBgWJhLxMNSAWEsko8IhgwXGBhgkKSYZHB0VDTMGYPDRQYTkgyqFmZCnTNLZeECRkaGCw4fHjBw
+				gDFBBYGfG6ragyZ1xYUGBg8+XGzIyMBQQcAskFwiDywWS4hFcqFINkwIiMkFpMSI2xSDEN+QhoYG
+				lRUAcKFUQJS5DUjlw6IszAWF5KJxOdlt6CEoLBuUySUi+ZBYLBKKpbJx6TBkyILERqVDw0g6LpOL
+				kYi4GA5KiYolYizMhSLx8Khs2NhwUCRnhqrMxRK5gFhYGIlHhHLZkFg8KpdLReOjchERYmKhMpRJ
+				CEvE48MFhKTDwOuQEXHhmJyQUCYdBn7KSFJMQC4oJJcCAD5KXCQgdNTig8WEQ/Kh48PCWCqXiEVC
+				kYQwoFVlJhtKZQJikZgoACCAABASJz5wRDYmJAoEd25U53Wr1cWrXaS1n6e3s8y1naKSS19JiOVd
+				M30a+Xq96WirfJdXm6/SpSNE85rxqPrcSky0F/7Q9pZbd4a5qZvpRCPqE+9+ZTNbLbOpnHu3mrlr
+				Ra+qLW6upeJvWD/aqzsR7XdVZHxpxN1ETdT6V9Vs3MoiqqM9WZ3V+TaimSl97w7qz3mwTMeY5Tqy
+				r6yGt4aqP2km0ebck1b3Izw8O/WYsaslK7TE79GrOkSTrj3rSma+LN+lqfr0F/VLLswtQ//qTVxd
+				+3pbdvoMLf07e3Zb6WyqHhHrjqre8tyc+iCtmtVXRaWznzvarc41dUv3pZdZh3jjndm0bc60e0V1
+				Xl79u6Z6N2hLm8U0LTqGqafbJd6MttJPmbq11f52anIuomVe6vOEaae6XrQtvTR2umcVZtrS0I70
+				PyRErDrmYtUeOvdi3eUS5m1lPqsxzbAyb3/4yz1DWsWjnvNO69I0LyltivekTUVEp5XpMRfLly81
+				rSPly0h0UJ1mtWuadle41i+tVt5pmppzr7+RM3HrlGsvq1f6daczspfWIavMo1PFJaQ8/z6df/n7
+				Wh5y7aGkVDL67owKq2rzVqau01e9inZnuE9TOjXrWla5x2uXhPdj6Z1CO1Rp3FdZIq1pT5kzT/vf
+				1uuwTNXn0yytmxaZnHhmmamouanGozUz4ymve2xb1lul0ahK5bQ97ee8K/zT9FdcwsXbEjoV9bAy
+				cy9dqXkMr2VVqpi3x+5Uv1ryXVrnLg3VVz86tKtina7nLO2jRR8sW16W2qb3R6VVwsX7peXZHRrt
+				xqo7+9VKV2LVWaXnba2PqV98laId3XsdfbpWN/Fk+dSMdRJJD1pq4a2ZaS3q5c0uBswWUe0ycbOu
+				t8Sss6i5P+ap3Vu+3dTz0X6aa4V1vq2DmHqyPTPl0lVvxKW7ks2719pXru31m/YlXo34NGNS4vG3
+				ev6t6f7YqVexsGoTvcdK9UxOvxJ/9Tm689l8fCFRrvrq3D1n/61qrdI3my41/b29Q1v9TMo9PU/C
+				sz0//6Q/I9UZoRq6Dk2vdM9lo1Wp5S3mj/XjQct7ppapaw/urUVZVWpzlV5ZqSXWeX1V32hoebyT
+				qPlcRbtSXdftT5OM9tHcPLSj9bvCY5lJUe8+nlKVatlwz50hFeKZM3/LxMM75n+qLrIsS3Xu2bVD
+				P0vTPXXyVV63MvEU7ffRXVnRWYqlqYd5TbS1a3FVDSttz6z+ZtmdkpWzvLVrpOh94j7PrnlTU7NN
+				69xpLXUvVf3cQ7Us+2y6eH/+evZFLNueVtkChAWoY8HyE0ZLRkQkSVJIawPnEQYTdJ2VtA7T4YKp
+				FDIr6phzxsyMBCISiEiQghQUJJUOa6EC5hLWvWYQIOt230DWwj6ozN41y/JAjFBxA1bAExSVlnVO
+				fqWlABAWrVtzGaO5qhLUJDzt0VZmUf+HA6UOdkuF2/F5uqGTrJbVYlHbHFCul3M+o320D0hLFf8u
+				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|
+			)
+			(checksum "EA767BA016B2FFA5A52144ECB0BA0CAD")
+		)
+	)
+)

@@ -9,4 +9,46 @@
 		(comment 1 "Vipul Singh")
 	)
 	(lib_symbols)
+	(sheet
+		(at 82.55 77.47)
+		(size 41.91 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d1c6ab1-5225-4b3c-baab-da8af543312f")
+		(property "Sheetname" "Rail Split & Vsense Main"
+			(at 82.55 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Rail Split & Vsense.kicad_sch"
+			(at 82.55 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/a268fc91-29d4-44d7-8666-b4aef94385a3"
+					(page "23")
+				)
+			)
+		)
+	)
 )

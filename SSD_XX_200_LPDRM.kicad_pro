@@ -10,17 +10,28 @@
       "via_dimensions": []
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -210,11 +221,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -237,6 +251,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -269,13 +284,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -297,6 +313,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -692,6 +712,7 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
+    "bus_aliases": {},
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -699,6 +720,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -730,6 +752,7 @@
     },
     "page_layout_descr_file": "kicad-embed://Schematic-Page-Template.kicad_wks",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -738,12 +761,25 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "SSD_XX_200_LPDRM.kicad_sch",
+        "name": "SSD_XX_200_LPDRM",
+        "uuid": "75cb77c3-5cc7-465d-8913-c3025f73381b"
+      }
+    ],
+    "used_designators": "R1-20,R22-23,R26-27,R30-31,R37-38,R41-42,R45-46,R51-70,R75-102,R701-750,J1-2,J5,#PWR7-26,#PWR47-55,#PWR57-59,#PWR65-84,#PWR113-124,#PWR819-838,JP1-121,U1-20,U29-48,U62-63",
+    "variants": []
   },
   "sheets": [
     [
       "75cb77c3-5cc7-465d-8913-c3025f73381b",
-      "Root"
+      "SSD_XX_200_LPDRM"
+    ],
+    [
+      "a8781d29-78a9-465b-818f-7ef675113773",
+      "Switch Main"
     ],
     [
       "5b718872-8a3b-4915-bd10-0e9e5cf53dc3",
@@ -763,39 +799,39 @@
     ],
     [
       "b66810da-8593-4960-bbf2-a98a67a4ee9f",
-      "B2B and Peripheral Connectors"
+      "Backplane and Peripheral Connectors"
     ],
     [
       "7769edbb-47ff-48e1-83da-181c93d32abf",
-      "12V_HPBM_MAIN"
+      "12V HPBM Main"
     ],
     [
       "3a84bfcb-c3e3-44cb-8e47-758b8b7e5c04",
-      "5V_HPBM_MAIN"
+      "5V HPBM Main"
     ],
     [
       "9900d92b-17e9-40ec-9ad7-3140fabdbb79",
-      "3V3_HPBM_MAIN"
+      "3V3 HPBM Main"
     ],
     [
       "8bb8e421-0df6-4b75-afc5-7a8fe87d5987",
-      "LPBM_MAIN"
+      "LPBM Main"
     ],
     [
       "39a673d2-742c-4c7e-abff-f43c314bcba0",
-      "3V3_HPBM_RED"
+      "3V3 HPBM Redundant"
     ],
     [
       "1bae6be3-2e34-480a-9bd7-41baeb88c63e",
-      "5V_HPBM_RED"
+      "5V HPBM Redundant"
     ],
     [
       "706f9dad-afc3-48d2-a99a-6c821e7e69f3",
-      "12V_HPBM_RED"
+      "12V HPBM Redundant"
     ],
     [
       "c4b977dc-80e1-41fb-acc6-bac4f39350df",
-      "LPBM_RED"
+      "LPBM Redundant"
     ],
     [
       "b35f28a2-7e02-4df0-8581-8c6d5bddd7c6",
@@ -832,7 +868,33 @@
     [
       "68e9703f-21f8-47b3-956a-949b90aaff1d",
       "Protection & Measurement-Red"
+    ],
+    [
+      "aebd524f-42f3-4aec-8796-a6f1c9c4209a",
+      "Left Backplane Connector"
+    ],
+    [
+      "64b4ad3b-8d47-4df8-a099-eaaa70478438",
+      "Right Backplane Connector"
+    ],
+    [
+      "1d729649-e61b-406c-8b13-112508ed6f86",
+      "Top Harness"
+    ],
+    [
+      "e7288fc3-48b9-4bc6-8c22-9ef0a29775c1",
+      "Right Harness"
+    ],
+    [
+      "fd186388-3377-4a04-a543-ed12e0a2de30",
+      "Switch Redundant"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
 }

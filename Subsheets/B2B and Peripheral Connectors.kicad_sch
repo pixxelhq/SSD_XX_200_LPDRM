@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "16abf729-0f84-4b36-ac49-e9ef6b95d090")
 	(paper "A4")
 	(title_block
@@ -9,4 +9,188 @@
 		(comment 1 "Vipul Singh")
 	)
 	(lib_symbols)
+	(sheet
+		(at 106.68 107.95)
+		(size 39.37 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1d729649-e61b-406c-8b13-112508ed6f86")
+		(property "Sheetname" "Top Harness"
+			(at 106.68 107.2384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Top Harness.kicad_sch"
+			(at 106.68 164.4146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/b66810da-8593-4960-bbf2-a98a67a4ee9f"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 41.91)
+		(size 39.37 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "64b4ad3b-8d47-4df8-a099-eaaa70478438")
+		(property "Sheetname" "Right Backplane Connector"
+			(at 106.68 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Right Backplane Connector.kicad_sch"
+			(at 106.68 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/b66810da-8593-4960-bbf2-a98a67a4ee9f"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 41.91)
+		(size 39.37 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "aebd524f-42f3-4aec-8796-a6f1c9c4209a")
+		(property "Sheetname" "Left Backplane Connector"
+			(at 60.96 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Left Backplane Connector.kicad_sch"
+			(at 60.96 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/b66810da-8593-4960-bbf2-a98a67a4ee9f"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 107.95)
+		(size 39.37 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e7288fc3-48b9-4bc6-8c22-9ef0a29775c1")
+		(property "Sheetname" "Right Harness"
+			(at 60.96 107.2384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Right Harness.kicad_sch"
+			(at 60.96 164.4146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/b66810da-8593-4960-bbf2-a98a67a4ee9f"
+					(page "27")
+				)
+			)
+		)
+	)
 )

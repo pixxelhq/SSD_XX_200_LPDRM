@@ -4,5 +4,396 @@
 	(generator_version "9.0")
 	(uuid "c36db1f2-f241-456b-88e5-a41eb57e207e")
 	(paper "A4")
-	(lib_symbols)
+	(title_block
+		(title "SSD_XX_200_LPDRM")
+		(comment 1 "Vipul Singh")
+	)
+	(lib_symbols
+		(symbol "Non-Isolated-Buck-Module_v9:HPBM_single_rail"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HPBM_single_rail_0_1"
+				(rectangle
+					(start -12.7 -2.54)
+					(end 12.7 -31.75)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HPBM_single_rail_1_1"
+				(text "HPBM\nSingle Rail"
+					(at 0 -10.414 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -6.35 0)
+					(length 2.54)
+					(name "Pin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -15.24 0)
+					(length 2.54)
+					(name "Vext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -17.78 0)
+					(length 2.54)
+					(name "syncin/PLL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -6.35 180)
+					(length 2.54)
+					(name "Pout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -15.24 180)
+					(length 2.54)
+					(name "Vsense"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -17.78 180)
+					(length 2.54)
+					(name "Isense"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -20.32 180)
+					(length 2.54)
+					(name "syncout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -22.86 180)
+					(length 2.54)
+					(name "Temp"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -25.4 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -30.48 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Non-Isolated-Buck-Module_v9:HPBM_single_rail")
+		(at 143.51 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98542991-e62e-4e57-8424-05f9881506b8")
+		(property "Reference" "U2"
+			(at 143.51 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 143.51 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "5ef465fc-19ec-46f6-a1b6-62af38746a5e")
+		)
+		(pin "1"
+			(uuid "6d579ddb-bc9a-4f67-bad3-4293f0bdba30")
+		)
+		(pin "5"
+			(uuid "3f39b95e-7842-4994-8321-89422e4c690a")
+		)
+		(pin "6"
+			(uuid "ca2471f0-da89-4499-b4b8-59c0d4c4efae")
+		)
+		(pin "11"
+			(uuid "5765d11d-9fc2-4b1b-8ff0-942d94560f65")
+		)
+		(pin "9"
+			(uuid "f4c1be0f-5ce0-4d80-9906-a5620a3ac314")
+		)
+		(pin "3"
+			(uuid "41fc2d3d-933f-4225-931b-6652eda999c8")
+		)
+		(pin "4"
+			(uuid "dca2c03d-7344-41f3-8f28-2c4f7cc3b798")
+		)
+		(pin "2"
+			(uuid "63a74879-0ff9-44a3-a389-c5c1222b00e9")
+		)
+		(pin "7"
+			(uuid "09970e1b-95be-4399-9ddd-e148b6608e61")
+		)
+		(pin "12"
+			(uuid "6f910ad5-0a51-4b67-8039-a4166aa88414")
+		)
+		(pin "8"
+			(uuid "4e3d63c1-ebdd-4412-8b52-debca1d26958")
+		)
+		(instances
+			(project ""
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/3a84bfcb-c3e3-44cb-8e47-758b8b7e5c04"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

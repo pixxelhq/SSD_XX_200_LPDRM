@@ -637,6 +637,288 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HVSM_LVSM_v9:HVSM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HVSM_0_1"
+				(rectangle
+					(start -12.7 -1.27)
+					(end 12.7 -30.48)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HVSM_1_1"
+				(text "HVSM"
+					(at 0 -8.128 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "VMON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -15.24 0)
+					(length 2.54)
+					(name "PC_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at -15.24 -17.78 0)
+					(length 2.54)
+					(name "~{FLT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -15.24 180)
+					(length 2.54)
+					(name "IMON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -17.78 180)
+					(length 2.54)
+					(name "TMON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -20.32 180)
+					(length 2.54)
+					(name "I_DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -27.94 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -22.86 180)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Non-Isolated-Buck-Module_v9:HPBM_single_rail"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1054,678 +1336,585 @@
 		)
 	)
 	(junction
-		(at 187.96 78.74)
+		(at 64.77 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "11805b16-9c91-43d8-bff8-fbe8f982527c")
+		(uuid "498d2761-d787-448c-8dc1-f7007b2b298e")
 	)
 	(junction
-		(at 200.66 78.74)
+		(at 50.8 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1dfcb9f8-e280-4371-a728-141f2b97b558")
+		(uuid "50a80199-7c24-4edc-8e51-45d055754af9")
 	)
 	(junction
-		(at 127 78.74)
+		(at 124.46 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "30edbf13-beea-40ea-b51d-cddf4f876f3d")
+		(uuid "6ace34a9-628b-4198-b626-a1ce6a872c16")
 	)
 	(junction
-		(at 185.42 60.96)
+		(at 139.7 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7ca6104c-9920-4149-8aab-2fca5554a3bd")
+		(uuid "6ccd0e89-eebe-451d-b606-0f1377511905")
 	)
 	(junction
-		(at 127 68.58)
+		(at 124.46 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ae3b7103-a063-447f-9dfb-034565870118")
+		(uuid "74316235-450b-4331-a61e-af43d43ef026")
 	)
 	(junction
-		(at 205.74 96.52)
+		(at 144.78 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b917f46b-770d-4199-a7fa-e735100ae36f")
+		(uuid "8d799ceb-330f-4261-b429-548805d14d4f")
 	)
 	(junction
-		(at 113.03 96.52)
+		(at 64.77 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ee438e22-c929-4d74-bafd-d1dc0aed763c")
+		(uuid "a691b5de-eb9e-4591-b869-6166473143ec")
+	)
+	(junction
+		(at 168.91 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c59faa5b-9f90-4340-944c-ae199d594951")
 	)
 	(no_connect
-		(at 146.05 83.82)
-		(uuid "ad7ee09a-1722-4fc6-a910-420727e96a1c")
+		(at 83.82 97.79)
+		(uuid "640dcfdb-bf9a-4e4e-ab06-1f99b5089880")
 	)
 	(no_connect
-		(at 176.53 86.36)
-		(uuid "c2cb3d2c-c118-4e7c-9341-527ba0fc77d2")
+		(at 218.44 101.6)
+		(uuid "9397e8d2-3a1e-4d71-b555-ab9417ad0fcb")
+	)
+	(no_connect
+		(at 187.96 99.06)
+		(uuid "c4a6a90d-147c-4e89-a2f8-da3590eb3ebb")
+	)
+	(no_connect
+		(at 187.96 96.52)
+		(uuid "e1600176-8efe-43d6-842e-4ba581a41117")
+	)
+	(no_connect
+		(at 114.3 100.33)
+		(uuid "e6fcc213-c9d2-43ac-9e41-43e80faae230")
 	)
 	(wire
 		(pts
-			(xy 143.51 68.58) (xy 143.51 72.39)
+			(xy 124.46 86.36) (xy 168.91 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03f96a81-2ab5-499e-b658-7999a82d5645")
+		(uuid "02b71b09-ca6b-41b4-986e-421d752a22a3")
 	)
 	(wire
 		(pts
-			(xy 127 68.58) (xy 143.51 68.58)
+			(xy 50.8 119.38) (xy 50.8 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08da2de9-d656-4763-a722-a204a1fd24dd")
+		(uuid "06dc4ee0-94f1-4241-bbaf-e8a62e53ff3b")
 	)
 	(wire
 		(pts
-			(xy 176.53 91.44) (xy 205.74 91.44)
+			(xy 60.96 115.57) (xy 60.96 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c29fa46-9a58-4ad8-b580-e9ce07ea5fad")
+		(uuid "083fa846-5054-4a9c-b519-f58319cf65c0")
 	)
 	(wire
 		(pts
-			(xy 123.19 78.74) (xy 127 78.74)
+			(xy 48.26 95.25) (xy 67.31 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d659a0d-4df7-4154-9f21-69522a200d73")
+		(uuid "187fe25a-70fc-4792-ab8f-ee61958967a5")
 	)
 	(wire
 		(pts
-			(xy 110.49 68.58) (xy 127 68.58)
+			(xy 114.3 86.36) (xy 124.46 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13d032bf-e315-428b-8dfc-fbebe00195f0")
+		(uuid "19bb79c3-8677-4ca7-84e3-dcf48fe25fb8")
 	)
 	(wire
 		(pts
-			(xy 185.42 60.96) (xy 205.74 60.96)
+			(xy 64.77 92.71) (xy 83.82 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fae7222-4bb0-46ca-a854-96074d3c93ec")
+		(uuid "1ea6cf5e-2a00-40e5-b6c2-b75c163eda5e")
 	)
 	(wire
 		(pts
-			(xy 205.74 96.52) (xy 205.74 102.87)
+			(xy 114.3 92.71) (xy 124.46 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23393e08-fd98-4f74-95b1-6baadae0ab0b")
+		(uuid "29b63362-bc76-4b51-9dc2-19c72a3096ae")
 	)
 	(wire
 		(pts
-			(xy 187.96 78.74) (xy 200.66 78.74)
+			(xy 139.7 92.71) (xy 143.51 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "257c3487-9982-4b81-973f-e2694c9050bb")
+		(uuid "3386d6ba-7bf3-45e8-9057-0956cbee4ecf")
 	)
 	(wire
 		(pts
-			(xy 205.74 91.44) (xy 205.74 96.52)
+			(xy 144.78 110.49) (xy 144.78 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "283d55de-cf30-4475-b516-d62315264b16")
+		(uuid "34e3f2a3-331c-4ec0-88fc-829271801025")
 	)
 	(wire
 		(pts
-			(xy 181.61 60.96) (xy 185.42 60.96)
+			(xy 139.7 64.77) (xy 139.7 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3386656c-43d8-4044-acce-793c0f9bd06c")
+		(uuid "3c73877a-c412-4a73-8a53-2aaa7b523bd5")
 	)
 	(wire
 		(pts
-			(xy 127 68.58) (xy 127 71.12)
+			(xy 124.46 92.71) (xy 139.7 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "489f7d94-1259-4531-a2a5-27f07c228114")
+		(uuid "405d54b8-e93e-4002-a4cd-ff414ef33ac5")
 	)
 	(wire
 		(pts
-			(xy 123.19 78.74) (xy 123.19 86.36)
+			(xy 114.3 97.79) (xy 140.97 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "515e2356-ad18-423d-82eb-feb4a8d6e8f6")
+		(uuid "44b40cc7-68cf-4b3c-88bb-5fe83c325a17")
 	)
 	(wire
 		(pts
-			(xy 181.61 72.39) (xy 181.61 60.96)
+			(xy 168.91 93.98) (xy 168.91 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d01c424-fcd0-4ba6-98fd-d34f1051393b")
+		(uuid "45929c70-857f-48a6-af89-22dd0b9f1e3b")
 	)
 	(wire
 		(pts
-			(xy 127 78.74) (xy 146.05 78.74)
+			(xy 114.3 102.87) (xy 143.51 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c769a0d-cde4-4e90-92dd-3b88fdd791c2")
+		(uuid "47dad6a4-6b25-4f76-9a8b-b7dc51980b79")
 	)
 	(wire
 		(pts
-			(xy 200.66 78.74) (xy 205.74 78.74)
+			(xy 72.39 95.25) (xy 83.82 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73e8e843-ddc7-4d5a-8cab-6fa6a8518ad8")
+		(uuid "4e609f7e-eda1-4cb3-b648-cf467cd089f4")
 	)
 	(wire
 		(pts
-			(xy 176.53 72.39) (xy 181.61 72.39)
+			(xy 60.96 92.71) (xy 64.77 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7cf66e74-b664-4326-b4b8-e9607c905c4c")
+		(uuid "5e4c9397-897b-4b63-8f90-9097b008ca76")
 	)
 	(wire
 		(pts
-			(xy 123.19 101.6) (xy 123.19 107.95)
+			(xy 187.96 93.98) (xy 168.91 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ecdefc2-94d4-406f-8847-04d321d69b39")
+		(uuid "61233b9b-4cd3-4d60-a1b9-45ce388f142b")
 	)
 	(wire
 		(pts
-			(xy 143.51 72.39) (xy 146.05 72.39)
+			(xy 139.7 73.66) (xy 139.7 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "894c6376-0312-46cb-853d-25c2400aa9a1")
+		(uuid "6860cc25-ba46-4a8a-94fb-4b8b1c10078e")
 	)
 	(wire
 		(pts
-			(xy 176.53 88.9) (xy 205.74 88.9)
+			(xy 50.8 110.49) (xy 53.34 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8bf6c14a-3194-44b9-afce-1e1766e2db2b")
+		(uuid "68f4a7af-da73-466c-a751-5ae620716054")
 	)
 	(wire
 		(pts
-			(xy 187.96 68.58) (xy 187.96 69.85)
+			(xy 50.8 110.49) (xy 50.8 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e926ba3-ffc4-49ea-8ca7-ce6ff7580635")
+		(uuid "6a58d237-4bfd-4fd7-9ef0-5232f39ebb52")
 	)
 	(wire
 		(pts
-			(xy 113.03 96.52) (xy 113.03 100.33)
+			(xy 64.77 82.55) (xy 81.28 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92318903-89f7-4004-93e7-7f31234fe985")
+		(uuid "732b9575-675f-4e07-ab60-33aa6ac4ba3b")
 	)
 	(wire
 		(pts
-			(xy 176.53 96.52) (xy 205.74 96.52)
+			(xy 114.3 110.49) (xy 144.78 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a268c02b-fd78-413f-bb98-b495eec0c0b8")
+		(uuid "7f76fa60-a894-4047-adfd-3f3f7d01fa7e")
 	)
 	(wire
 		(pts
-			(xy 113.03 105.41) (xy 113.03 107.95)
+			(xy 48.26 110.49) (xy 50.8 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b216ef3a-3bbb-463d-bb5a-c38f9e59759a")
+		(uuid "822f244a-667f-451d-827a-6daa24abd2f7")
 	)
 	(wire
 		(pts
-			(xy 176.53 83.82) (xy 205.74 83.82)
+			(xy 81.28 86.36) (xy 83.82 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb0532e5-7a80-4339-8f31-d7b4492a0e89")
+		(uuid "82f5075c-3147-4809-8936-c0a6b7f52f95")
 	)
 	(wire
 		(pts
-			(xy 176.53 81.28) (xy 205.74 81.28)
+			(xy 114.3 105.41) (xy 144.78 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca8c80bb-ddb0-43a7-9d58-d0403a592a04")
+		(uuid "9071168f-c907-419c-940d-57d8e8b69582")
 	)
 	(wire
 		(pts
-			(xy 134.62 81.28) (xy 146.05 81.28)
+			(xy 144.78 105.41) (xy 144.78 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cabe10f2-9297-4084-9c6c-eec26c87f6da")
+		(uuid "9c51cc72-e59c-4946-9d0a-74125fedc853")
 	)
 	(wire
 		(pts
-			(xy 113.03 96.52) (xy 115.57 96.52)
+			(xy 168.91 87.63) (xy 168.91 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3688f55-e7bc-4b7a-990c-39a9cb46daf2")
+		(uuid "9e24dbbd-c8c5-4e3a-9f29-74c7c856761f")
 	)
 	(wire
 		(pts
-			(xy 127 76.2) (xy 127 78.74)
+			(xy 64.77 82.55) (xy 64.77 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3fdf1d8-2c58-4108-89ec-f13879340aac")
+		(uuid "9f10233f-cfba-4eb3-b50a-45493558eeef")
 	)
 	(wire
 		(pts
-			(xy 110.49 96.52) (xy 113.03 96.52)
+			(xy 247.65 96.52) (xy 218.44 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4c4e750-8024-42ad-aaba-77bf893e641b")
+		(uuid "a03a2622-c5b9-4930-ab86-a6b576cf39c3")
 	)
 	(wire
 		(pts
-			(xy 110.49 81.28) (xy 129.54 81.28)
+			(xy 168.91 86.36) (xy 187.96 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8fd464a-28b1-45a5-a2bb-b53aa5742665")
+		(uuid "b5987397-6e60-470f-af7a-d17ec89de9fc")
 	)
 	(wire
 		(pts
-			(xy 176.53 78.74) (xy 187.96 78.74)
+			(xy 247.65 93.98) (xy 218.44 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7e56a02-cfbf-43c3-8bd3-a6ac80c28bf5")
+		(uuid "b9faec43-1c12-4e1d-938d-e4ba0301ea6c")
 	)
 	(wire
 		(pts
-			(xy 187.96 74.93) (xy 187.96 78.74)
+			(xy 247.65 109.22) (xy 247.65 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8b73063-84d8-430c-9a56-f8861f8dc9f6")
+		(uuid "ba2a7123-2882-48a5-9bb5-466f0a95b3df")
 	)
-	(hierarchical_label "BUCK_IN"
-		(shape input)
-		(at 110.49 68.58 180)
+	(wire
+		(pts
+			(xy 247.65 86.36) (xy 218.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd414c9d-858a-4db5-9305-65f337add83c")
+	)
+	(wire
+		(pts
+			(xy 60.96 92.71) (xy 60.96 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1add65e-e154-49e2-bfe9-dfea50e62492")
+	)
+	(wire
+		(pts
+			(xy 64.77 90.17) (xy 64.77 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc49d970-0bb9-46fb-a2ba-e80bf34e85eb")
+	)
+	(wire
+		(pts
+			(xy 81.28 82.55) (xy 81.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd271f1a-2926-4ed6-aea2-e21c530f88b1")
+	)
+	(wire
+		(pts
+			(xy 247.65 99.06) (xy 218.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce760b43-0ff4-4e19-9f27-5f86279fea94")
+	)
+	(wire
+		(pts
+			(xy 218.44 109.22) (xy 247.65 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32016cf-2536-411f-9f25-303371c3f850")
+	)
+	(wire
+		(pts
+			(xy 48.26 82.55) (xy 64.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7569c8c-cfa9-4fa3-900a-71e85e1d8dfa")
+	)
+	(wire
+		(pts
+			(xy 114.3 95.25) (xy 140.97 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb156bf-c6c0-41c1-a384-ed8e1e1c0109")
+	)
+	(label "BUCK_OUT"
+		(at 157.48 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "2b81362a-bb38-4d12-93be-c98b9df04eb5")
-	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 187.96 68.58 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "36b927ce-24a6-49d1-a199-b6c7415a172b")
+		(uuid "aa7431dd-17a5-40be-b664-25b4ef2ab2f1")
 	)
 	(hierarchical_label "BUCK_EN"
 		(shape input)
-		(at 110.49 96.52 180)
+		(at 48.26 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "3a6b636e-bd42-4f8d-9446-c4fc0b07617c")
+		(uuid "13b38d02-01ec-40b2-8b55-b060611ec2fe")
+	)
+	(hierarchical_label "PWR_IMON"
+		(shape output)
+		(at 247.65 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "205b5fb1-9714-44e7-8b9a-77db59ddb30a")
+	)
+	(hierarchical_label "PWR_VMON"
+		(shape output)
+		(at 247.65 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65d84850-7aa1-4780-990f-07576e2a4685")
+	)
+	(hierarchical_label "PWR_OUT"
+		(shape output)
+		(at 247.65 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a693ce2b-e6d0-4742-9bc3-04dc03305d7f")
+	)
+	(hierarchical_label "PWR_PG"
+		(shape output)
+		(at 143.51 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2825909-085f-49eb-9ed5-90f70d8d85fc")
+	)
+	(hierarchical_label "BUCK_IN"
+		(shape input)
+		(at 48.26 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bdda36c0-557f-4f9e-ae57-5c451c904d98")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 139.7 64.77 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2aa6000-8cad-4b68-be21-60889c77469a")
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 110.49 81.28 180)
+		(at 48.26 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "75cc4d5a-abce-47fd-a43f-c0408c353fde")
+		(uuid "fa0f79fa-2257-401b-9a00-377aa8f592d5")
 	)
-	(hierarchical_label "BUCK_TEMP"
+	(hierarchical_label "PWR_TEMP"
 		(shape output)
-		(at 205.74 88.9 0)
+		(at 143.51 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "7f00309c-2370-4bd1-ad4c-aa5ef02e4b60")
-	)
-	(hierarchical_label "BUCK_VMON"
-		(shape output)
-		(at 205.74 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a174870f-2570-4edb-8a85-413a08bf8953")
-	)
-	(hierarchical_label "BUCK_PG"
-		(shape output)
-		(at 205.74 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b1138e67-967c-4b2c-8199-a37411a1b541")
-	)
-	(hierarchical_label "BUCK_OUT"
-		(shape output)
-		(at 205.74 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e84e7a44-2881-407a-b421-1bfa5c6af3f9")
-	)
-	(hierarchical_label "BUCK_IMON"
-		(shape output)
-		(at 205.74 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f4a345da-1016-45be-845f-9914b5366c4c")
-	)
-	(symbol
-		(lib_id "BSS123NH6327XTSA1:BSS123NH6327XTSA1")
-		(at 115.57 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2d91bb36-33d4-4891-b596-1c4a6f2148b9")
-		(property "Reference" "Q3"
-			(at 124.46 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS123NH6327XTSA1"
-			(at 124.46 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT95P240X110-3N"
-			(at 127 195.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bss123n-datasheet-en.pdf?fileId=db3a304335f1f4b6013639adfaaa1631"
-			(at 127 295.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "N-Channel 100 V 190mA (Ta) 500mW (Ta) Surface Mount PG-SOT23"
-			(at 115.57 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 127 495.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer Part Number" "BSS123NH6327XTSA1"
-			(at 115.57 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Name" "Infineon Technologies"
-			(at 115.57 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "BSS123NH6327XTSA1TR-ND"
-			(at 115.57 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 115.57 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mass(in Gram)" ""
-			(at 115.57 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC" ""
-			(at 115.57 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price(INR)" "35.91"
-			(at 115.57 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_max (C)" "150"
-			(at 115.57 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_min (C)" "-55"
-			(at 115.57 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "b88321b7-4667-42a2-8c6f-f90eba85ce2a")
-		)
-		(pin "2"
-			(uuid "0e5393e0-6193-4fb8-a3dd-34cda06dfa92")
-		)
-		(pin "1"
-			(uuid "e1b732aa-6b6a-4803-bec7-ad114a24f230")
-		)
-		(instances
-			(project "SSD_XX_200_LPDRM"
-				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
-					(reference "Q4")
-					(unit 1)
-				)
-				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "fed2df0e-07f0-47c0-b712-0e7bc439ffb7")
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 132.08 81.28 270)
+		(at 64.77 87.63 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1733,606 +1922,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2fbde63f-a76a-4f2e-a16d-3196610cfad0")
-		(property "Reference" "R36"
-			(at 133.604 80.264 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R_0.063W_0402"
-			(at 126.746 83.566 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Pixxel_Resistors:RES0402"
-			(at 132.08 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 132.08 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 132.08 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay Dale"
-			(at 132.08 81.28 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW04020000Z0ED"
-			(at 132.08 81.28 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 132.08 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "541-0.0JTR-ND"
-			(at 132.08 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price(INR)" "9.45"
-			(at 132.08 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mass (grams)" ""
-			(at 132.08 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_max (C)" "155"
-			(at 132.08 81.28 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_min (C)" "-55"
-			(at 132.08 81.28 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC (C/W)" "NA"
-			(at 132.08 81.28 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 132.08 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mass(in Gram)" ""
-			(at 132.08 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC" ""
-			(at 132.08 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "26e6b048-e3ad-4126-89a5-5b0c3ac8dcc6")
-		)
-		(pin "1"
-			(uuid "bfaf1a4e-b9e5-447d-9b9b-9c142575970e")
-		)
-		(instances
-			(project "SSD_XX_200_LPDRM"
-				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
-					(reference "R156")
-					(unit 1)
-				)
-				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "786111ac-ceb3-4365-a303-4d046c0a7e51")
-		(property "Reference" "#PWR037"
-			(at 113.03 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "787999ab-5040-4079-8cd0-5f6ed3348d9f")
-		)
-		(instances
-			(project "SSD_XX_200_LPDRM"
-				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
-					(reference "#PWR040")
-					(unit 1)
-				)
-				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Non-Isolated-Buck-Module_v9:HPBM_single_rail")
-		(at 161.29 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81a431e0-7d16-4834-acc6-4b27b8a0044a")
-		(property "Reference" "U23"
-			(at 161.29 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 161.29 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "11"
-			(uuid "f038761a-63b1-4d34-8707-1fd8e29f6494")
-		)
-		(pin "4"
-			(uuid "abfdd099-22b5-46af-b661-329dd459174e")
-		)
-		(pin "6"
-			(uuid "c0beb519-837c-4df1-89ff-745a6dae6036")
-		)
-		(pin "1"
-			(uuid "aa4aa8af-e10b-41fd-91ae-e77434828a95")
-		)
-		(pin "2"
-			(uuid "3621fb74-e3ce-419c-b1d6-5829d5dbae49")
-		)
-		(pin "7"
-			(uuid "d031ad31-fdfa-4e36-9657-7f53b15029aa")
-		)
-		(pin "9"
-			(uuid "f2c1b9c8-c551-4af5-87a9-34d0b96344d2")
-		)
-		(pin "10"
-			(uuid "d27321a2-1b13-468c-b60f-d0114b56acbd")
-		)
-		(pin "5"
-			(uuid "48bd7263-7e94-4444-9342-2b0837767f47")
-		)
-		(pin "3"
-			(uuid "0135ca62-ba49-4b5d-80ad-1b467a385d81")
-		)
-		(pin "8"
-			(uuid "99304e63-891a-4d51-afbd-5fe79cd77430")
-		)
-		(pin "12"
-			(uuid "9010557a-8e47-44ad-a9ea-3a9a210f9aa2")
-		)
-		(instances
-			(project "SSD_XX_200_LPDRM"
-				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
-					(reference "U25")
-					(unit 1)
-				)
-				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
-					(reference "U23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 113.03 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "82fb569e-f641-4e25-ba79-137a2074ca58")
-		(property "Reference" "R29"
-			(at 114.808 103.378 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k_0.0625W_0603"
-			(at 92.964 103.378 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Pixxel_Resistors:RES0603"
-			(at 113.03 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
-			(at 113.03 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 113.03 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "TNPW060310K0BEEA"
-			(at 113.03 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Name" "Vishay Dale"
-			(at 113.03 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "TNP10.0KAATR-ND"
-			(at 113.03 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 113.03 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mass(in Gram)" ""
-			(at 113.03 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC" ""
-			(at 113.03 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price(INR)" "24.57"
-			(at 113.03 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_max (C)" "175"
-			(at 113.03 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_min (C)" "-55"
-			(at 113.03 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0d595f2-6529-4b23-9dbd-d0ea75559eb1")
-		)
-		(pin "2"
-			(uuid "968b4cf8-6edb-43ea-bc40-c2e0cac4eb90")
-		)
-		(instances
-			(project "SSD_XX_200_LPDRM"
-				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
-					(reference "R154")
-					(unit 1)
-				)
-				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 127 73.66 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b0d91c48-5bd2-4f33-9258-48d16e49c2d0")
+		(uuid "04430e0e-e695-4733-bc24-b3fdf8ff58dc")
 		(property "Reference" "R749"
-			(at 129.032 73.66 0)
+			(at 66.802 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2343,7 +1935,7 @@
 			)
 		)
 		(property "Value" "100k_0.0625W_0402"
-			(at 105.156 73.406 0)
+			(at 42.926 87.376 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2354,7 +1946,7 @@
 			)
 		)
 		(property "Footprint" "Pixxel_Resistors:RES0402"
-			(at 127 73.66 0)
+			(at 64.77 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2365,7 +1957,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 127 73.66 0)
+			(at 64.77 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2376,7 +1968,7 @@
 			)
 		)
 		(property "Description" "100 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 127 73.66 0)
+			(at 64.77 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2387,7 +1979,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 127 73.66 0)
+			(at 64.77 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2398,7 +1990,7 @@
 			)
 		)
 		(property "Price" "19.5"
-			(at 127 73.66 0)
+			(at 64.77 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2409,7 +2001,7 @@
 			)
 		)
 		(property "Vendor Part Number" "541-100KLTR-ND"
-			(at 127 73.66 0)
+			(at 64.77 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2420,7 +2012,7 @@
 			)
 		)
 		(property "Mass (grams)" "0.00065"
-			(at 127 73.66 90)
+			(at 64.77 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2431,7 +2023,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW0402100KFKED"
-			(at 127 73.66 90)
+			(at 64.77 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2442,7 +2034,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" "NA"
-			(at 127 73.66 90)
+			(at 64.77 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2453,7 +2045,7 @@
 			)
 		)
 		(property "Temp_max (C)" "155"
-			(at 127 73.66 90)
+			(at 64.77 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2464,7 +2056,7 @@
 			)
 		)
 		(property "Temp_min (C)" "-55"
-			(at 127 73.66 90)
+			(at 64.77 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2475,7 +2067,7 @@
 			)
 		)
 		(property "RQjC (C/W)" "NA"
-			(at 127 73.66 90)
+			(at 64.77 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2486,7 +2078,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 127 73.66 90)
+			(at 64.77 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2497,7 +2089,7 @@
 			)
 		)
 		(property "RQjC" ""
-			(at 127 73.66 90)
+			(at 64.77 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2508,7 +2100,7 @@
 			)
 		)
 		(property "Manufacturer Name" "Vishay Dale "
-			(at 127 73.66 0)
+			(at 64.77 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2519,7 +2111,7 @@
 			)
 		)
 		(property "Price(INR)" "9.45"
-			(at 127 73.66 0)
+			(at 64.77 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2530,7 +2122,7 @@
 			)
 		)
 		(property "Mass(in Gram)" ""
-			(at 127 73.66 0)
+			(at 64.77 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2541,10 +2133,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7d423a37-9edd-4b6c-b277-45fc26dcc631")
+			(uuid "440d0ca7-94c6-486d-9559-13ed7b9dbdd5")
 		)
 		(pin "1"
-			(uuid "4cb1f9aa-08e0-4469-8aa5-ce3cfc40c8c4")
+			(uuid "2e4adeac-e340-43ee-b679-fabe990ce2f0")
 		)
 		(instances
 			(project "SSD_XX_200_LPDRM"
@@ -2560,8 +2152,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 123.19 107.95 0)
+		(lib_id "Non-Isolated-Buck-Module_v9:HPBM_single_rail")
+		(at 99.06 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2570,10 +2162,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bf774b48-51c8-45ea-b802-bf82422f9d8d")
-		(property "Reference" "#PWR038"
-			(at 123.19 114.3 0)
-			(hide yes)
+		(uuid "2509e25b-4305-41aa-972a-39dbd41c1415")
+		(property "Reference" "U25"
+			(at 99.06 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2582,8 +2173,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 123.19 113.03 0)
+		(property "Value" ""
+			(at 99.06 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2593,7 +2184,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 107.95 0)
+			(at 99.06 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2604,7 +2195,122 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 107.95 0)
+			(at 99.06 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "96b02a93-25d4-44e2-8910-9af2bcb8db40")
+		)
+		(pin "4"
+			(uuid "72791612-3217-40e2-93a8-ba6b6fa3a745")
+		)
+		(pin "6"
+			(uuid "a09bbd1c-b9e2-4498-9720-543171be698d")
+		)
+		(pin "1"
+			(uuid "57040925-237f-47b8-876c-2992756c3b6a")
+		)
+		(pin "2"
+			(uuid "3387d1ad-3657-4342-ba3f-b59032c6a173")
+		)
+		(pin "7"
+			(uuid "776acbcf-c405-48e2-acb5-b4857b111749")
+		)
+		(pin "9"
+			(uuid "ebf71705-f66e-4fbe-bd08-065ce927b9e1")
+		)
+		(pin "10"
+			(uuid "ff0f16a9-d60b-4b54-8264-0949902e5012")
+		)
+		(pin "5"
+			(uuid "b0309617-eeaf-4014-b0f4-70f50b1f84d9")
+		)
+		(pin "3"
+			(uuid "755d8a9c-c9ad-49e9-b03c-8db172bcfa70")
+		)
+		(pin "8"
+			(uuid "436ab5f3-0e8b-4ab3-a540-7d617105f32e")
+		)
+		(pin "12"
+			(uuid "12b65eaf-ba39-4ce2-a5f4-1d9bee954daf")
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
+					(reference "U26")
+					(unit 1)
+				)
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
+					(reference "U25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b1a1e1c-54ff-442e-800a-6f177f018d20")
+		(property "Reference" "#PWR038"
+			(at 60.96 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2615,7 +2321,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 107.95 0)
+			(at 60.96 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2626,7 +2332,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0142604a-beb9-4611-8b8f-04115c0709b5")
+			(uuid "b16f6351-7778-49ff-8286-f056a5c69fc0")
 		)
 		(instances
 			(project "SSD_XX_200_LPDRM"
@@ -2642,175 +2348,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 185.42 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cab1ec15-96f1-4cb8-84ac-a5f23fdccb60")
-		(property "Reference" "TP5"
-			(at 187.96 56.3879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 187.96 58.9279 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 185.42 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f90d3b6e-6114-4c7c-a144-15cd93d5a364")
-		)
-		(instances
-			(project "SSD_XX_200_LPDRM"
-				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
-					(reference "TP10")
-					(unit 1)
-				)
-				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 200.66 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cc234df2-909a-4cff-a383-2581e45d0392")
-		(property "Reference" "TP6"
-			(at 202.692 75.438 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 203.2 76.7079 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 200.66 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2149d7c7-47fa-4ffd-b6de-69b777baf410")
-		)
-		(instances
-			(project "SSD_XX_200_LPDRM"
-				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
-					(reference "TP11")
-					(unit 1)
-				)
-				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 205.74 102.87 0)
+		(at 144.78 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2819,9 +2358,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d1800d7c-4ed1-41bc-a463-6f6fb4dc2043")
+		(uuid "313f9d22-d8ae-494c-8f53-a26019e616e8")
 		(property "Reference" "#PWR039"
-			(at 205.74 109.22 0)
+			(at 144.78 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2832,7 +2371,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 107.95 0)
+			(at 144.78 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2842,7 +2381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 102.87 0)
+			(at 144.78 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2853,7 +2392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 102.87 0)
+			(at 144.78 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2864,7 +2403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 102.87 0)
+			(at 144.78 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2875,12 +2414,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "af53a765-a2ce-40a5-b439-bdeed5284f05")
+			(uuid "b20d1e24-4109-460b-94b0-4fc01e19c48a")
 		)
 		(instances
 			(project "SSD_XX_200_LPDRM"
 				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
-					(reference "#PWR046")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
@@ -2892,17 +2431,17 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 187.96 72.39 0)
+		(at 50.8 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(uuid "e610993f-8ef0-4c2f-8222-00479617f9ba")
-		(property "Reference" "R39"
-			(at 183.134 72.644 0)
+		(dnp yes)
+		(uuid "4915c813-ead1-4d8f-9fe3-6bcb0ba9c443")
+		(property "Reference" "R133"
+			(at 52.578 117.348 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2913,7 +2452,7 @@
 			)
 		)
 		(property "Value" "10k_0.0625W_0603"
-			(at 189.484 72.39 0)
+			(at 30.734 117.348 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2924,7 +2463,7 @@
 			)
 		)
 		(property "Footprint" "Pixxel_Resistors:RES0603"
-			(at 187.96 72.39 0)
+			(at 50.8 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2935,7 +2474,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
-			(at 187.96 72.39 0)
+			(at 50.8 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2946,7 +2485,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 187.96 72.39 0)
+			(at 50.8 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2957,7 +2496,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TNPW060310K0BEEA"
-			(at 187.96 72.39 0)
+			(at 50.8 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2968,7 +2507,7 @@
 			)
 		)
 		(property "Manufacturer Name" "Vishay Dale"
-			(at 187.96 72.39 0)
+			(at 50.8 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2979,7 +2518,7 @@
 			)
 		)
 		(property "Vendor Part Number" "TNP10.0KAATR-ND"
-			(at 187.96 72.39 0)
+			(at 50.8 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2990,7 +2529,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 187.96 72.39 0)
+			(at 50.8 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3001,7 +2540,7 @@
 			)
 		)
 		(property "Mass(in Gram)" ""
-			(at 187.96 72.39 0)
+			(at 50.8 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3012,7 +2551,7 @@
 			)
 		)
 		(property "RQjC" ""
-			(at 187.96 72.39 0)
+			(at 50.8 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3023,7 +2562,7 @@
 			)
 		)
 		(property "Price(INR)" "24.57"
-			(at 187.96 72.39 0)
+			(at 50.8 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3034,7 +2573,7 @@
 			)
 		)
 		(property "Temp_max (C)" "175"
-			(at 187.96 72.39 0)
+			(at 50.8 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3045,7 +2584,7 @@
 			)
 		)
 		(property "Temp_min (C)" "-55"
-			(at 187.96 72.39 0)
+			(at 50.8 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3056,19 +2595,1550 @@
 			)
 		)
 		(pin "1"
-			(uuid "e97f97d6-c87d-43b8-84b8-98cf0cb09e67")
+			(uuid "f0ffb6bc-0769-41bf-b299-961819cc4f57")
 		)
 		(pin "2"
-			(uuid "e9f0b757-679f-4936-baaa-661937fe5fa1")
+			(uuid "3035e1c2-b908-475a-8f84-17f717c6c5fd")
 		)
 		(instances
 			(project "SSD_XX_200_LPDRM"
 				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
-					(reference "R157")
+					(reference "R154")
 					(unit 1)
 				)
 				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
-					(reference "R39")
+					(reference "R133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 247.65 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ab4a49e-4f40-49b8-8666-2957956c846e")
+		(property "Reference" "#PWR0126"
+			(at 247.65 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ece3677-7f56-4e66-8471-9abaa1571815")
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "565f6066-547a-4bc3-a259-edd151fe9d79")
+		(property "Reference" "TP71"
+			(at 145.796 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 143.0021 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 140.97 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3396b1d7-744f-45c3-be5c-0164c1b3d949")
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
+					(reference "TP76")
+					(unit 1)
+				)
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
+					(reference "TP71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fbab1d1-692d-45fa-a9a6-adb3aaf22b9a")
+		(property "Reference" "#PWR037"
+			(at 50.8 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df42994b-bbe3-441c-8b46-cd1d6aa14b72")
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BSS123NH6327XTSA1:BSS123NH6327XTSA1")
+		(at 53.34 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b50e147-7712-41d8-8b72-05bc272a4dfe")
+		(property "Reference" "Q40"
+			(at 62.23 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS123NH6327XTSA1"
+			(at 62.23 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P240X110-3N"
+			(at 64.77 209.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bss123n-datasheet-en.pdf?fileId=db3a304335f1f4b6013639adfaaa1631"
+			(at 64.77 309.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "N-Channel 100 V 190mA (Ta) 500mW (Ta) Surface Mount PG-SOT23"
+			(at 53.34 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 64.77 509.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer Part Number" "BSS123NH6327XTSA1"
+			(at 53.34 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Name" "Infineon Technologies"
+			(at 53.34 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "BSS123NH6327XTSA1TR-ND"
+			(at 53.34 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 53.34 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mass(in Gram)" ""
+			(at 53.34 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC" ""
+			(at 53.34 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price(INR)" "35.91"
+			(at 53.34 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_max (C)" "150"
+			(at 53.34 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_min (C)" "-55"
+			(at 53.34 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "58fadfa2-3073-4b93-9439-99306c67db12")
+		)
+		(pin "2"
+			(uuid "9b59845e-4b9f-4609-b4fc-4f0f1841e05f")
+		)
+		(pin "1"
+			(uuid "b4a1d2a1-d627-4cbb-a28b-e4516f0948f8")
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
+					(reference "Q41")
+					(unit 1)
+				)
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
+					(reference "Q40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 97.79 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7247c33b-8aee-4c17-8e38-95eba6a1ddcb")
+		(property "Reference" "TP72"
+			(at 145.796 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 143.0021 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 140.97 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb28c491-8158-47ab-9079-8ce5cd300d87")
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
+					(reference "TP77")
+					(unit 1)
+				)
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
+					(reference "TP72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 69.85 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74b5098b-ec9a-4e2d-a4e3-3522a2fa7548")
+		(property "Reference" "R153"
+			(at 71.374 94.234 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R_0.063W_0402"
+			(at 64.516 97.536 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pixxel_Resistors:RES0402"
+			(at 69.85 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 69.85 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 69.85 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 69.85 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW04020000Z0ED"
+			(at 69.85 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 69.85 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "541-0.0JTR-ND"
+			(at 69.85 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price(INR)" "9.45"
+			(at 69.85 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mass (grams)" ""
+			(at 69.85 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_max (C)" "155"
+			(at 69.85 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_min (C)" "-55"
+			(at 69.85 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC (C/W)" "NA"
+			(at 69.85 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Name" ""
+			(at 69.85 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mass(in Gram)" ""
+			(at 69.85 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC" ""
+			(at 69.85 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9999990a-926a-475a-beb7-948011dc85f5")
+		)
+		(pin "1"
+			(uuid "5a63e544-8347-44bb-9bca-04e8fe54cfa2")
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
+					(reference "R155")
+					(unit 1)
+				)
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
+					(reference "R153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 168.91 90.17 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84ad6292-adc0-4470-b1c8-7cc79f2c696c")
+		(property "Reference" "R755"
+			(at 170.942 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k_0.0625W_0402"
+			(at 165.862 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Pixxel_Resistors:RES0402"
+			(at 168.91 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 168.91 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 168.91 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 168.91 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "19.5"
+			(at 168.91 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "541-100KLTR-ND"
+			(at 168.91 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mass (grams)" "0.00065"
+			(at 168.91 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW0402100KFKED"
+			(at 168.91 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Dissipation (W)" "NA"
+			(at 168.91 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_max (C)" "155"
+			(at 168.91 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_min (C)" "-55"
+			(at 168.91 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC (C/W)" "NA"
+			(at 168.91 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC_top (C/W)" ""
+			(at 168.91 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC" ""
+			(at 168.91 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Name" "Vishay Dale "
+			(at 168.91 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price(INR)" "9.45"
+			(at 168.91 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mass(in Gram)" ""
+			(at 168.91 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f2cfa1ab-4621-434f-9584-aa3b31e0e2fc")
+		)
+		(pin "1"
+			(uuid "5acf9917-8651-4e8e-a238-c796ca3569e5")
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
+					(reference "R756")
+					(unit 1)
+				)
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
+					(reference "R755")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 247.65 99.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "997e2c5b-efed-444c-bea5-40283552ac7e")
+		(property "Reference" "TP73"
+			(at 252.476 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 249.6821 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 247.65 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69537c1d-5de6-4036-bc43-7f4c05f7f76f")
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
+					(reference "TP78")
+					(unit 1)
+				)
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
+					(reference "TP73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 139.7 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0bf129b-4310-4550-8d82-089577d5bb87")
+		(property "Reference" "R32"
+			(at 140.97 76.962 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k_0.0625W_0603"
+			(at 137.414 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pixxel_Resistors:RES0603"
+			(at 139.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+			(at 139.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 139.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TNPW060310K0BEEA"
+			(at 139.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Name" "Vishay Dale"
+			(at 139.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "TNP10.0KAATR-ND"
+			(at 139.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 139.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mass(in Gram)" ""
+			(at 139.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC" ""
+			(at 139.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price(INR)" "24.57"
+			(at 139.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_max (C)" "175"
+			(at 139.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_min (C)" "-55"
+			(at 139.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6fffb6ba-415a-4546-8cac-604b13a055aa")
+		)
+		(pin "2"
+			(uuid "4b3ddb43-bd6e-4f3d-a760-6f666c003dcd")
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
+					(reference "R33")
+					(unit 1)
+				)
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0b3e85e-f2c5-458e-99d8-94e3eb35552f")
+		(property "Reference" "TP12"
+			(at 125.476 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127 84.3279 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 124.46 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6adec25d-c9e3-4b2e-9918-11710237a0d1")
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
+					(reference "TP74")
+					(unit 1)
+				)
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HVSM_LVSM_v9:HVSM")
+		(at 203.2 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c150c8e1-a416-4f36-b701-2e24ffe5f4ef")
+		(property "Reference" "U66"
+			(at 203.2 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 203.2 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "de87b8eb-6337-4626-865c-e05eed31a4a0")
+		)
+		(pin "5"
+			(uuid "f44fcb71-496a-43ba-8380-3e6b49f4d112")
+		)
+		(pin "9"
+			(uuid "c6051dde-220f-4f1a-b3c7-01ba29c7d4ca")
+		)
+		(pin "11"
+			(uuid "04c6287b-b248-4a19-af39-f0b81abd674f")
+		)
+		(pin "8"
+			(uuid "f5bf33ba-8bf0-4a4b-94d0-8c7a960f1bf3")
+		)
+		(pin "1"
+			(uuid "d7017730-59fe-4c21-8603-4beaa058cc6e")
+		)
+		(pin "3"
+			(uuid "bb0798bf-1dc0-4208-a46e-3ff09a9c667f")
+		)
+		(pin "4"
+			(uuid "30255177-9865-4175-b916-9d525e25b765")
+		)
+		(pin "7"
+			(uuid "330a40c9-d524-44ac-bbaf-ab95f1cf5166")
+		)
+		(pin "2"
+			(uuid "0848a0af-d3a0-4142-8ba2-90661b7374e3")
+		)
+		(pin "10"
+			(uuid "7732b4b9-7f98-42b8-ae6c-fbb7fc878cc1")
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
+					(reference "U67")
+					(unit 1)
+				)
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
+					(reference "U66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e131c696-7357-403c-9659-5d03e7ad9181")
+		(property "Reference" "TP13"
+			(at 125.476 89.408 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127 90.6779 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 124.46 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be6d7b7f-d1f6-4824-bf65-baf9d0f56573")
+		)
+		(instances
+			(project "SSD_XX_200_LPDRM"
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/39a673d2-742c-4c7e-abff-f43c314bcba0"
+					(reference "TP75")
+					(unit 1)
+				)
+				(path "/75cb77c3-5cc7-465d-8913-c3025f73381b/5b718872-8a3b-4915-bd10-0e9e5cf53dc3/9900d92b-17e9-40ec-9ad7-3140fabdbb79"
+					(reference "TP13")
 					(unit 1)
 				)
 			)

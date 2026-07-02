@@ -288,6 +288,36 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 153, 0)",
+        "tuning_profile": "",
+        "wire_width": 15
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 0, 0)",
+        "tuning_profile": "",
+        "wire_width": 15
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 194, 0)",
+        "tuning_profile": "",
+        "wire_width": 15
       }
     ],
     "meta": {
@@ -295,7 +325,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "3V3",
+        "pattern": "3V3_MAIN"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "3V3_RED"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "5V_MAIN"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "5V_RED"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -769,7 +820,7 @@
         "uuid": "75cb77c3-5cc7-465d-8913-c3025f73381b"
       }
     ],
-    "used_designators": "R1-20,R22-23,R26-27,R30-31,R37-38,R41-42,R45-46,R51-70,R75-102,R701-750,J1-2,J5,#PWR7-26,#PWR47-55,#PWR57-59,#PWR65-84,#PWR113-124,#PWR819-838,JP1-121,U1-20,U29-48,U62-63",
+    "used_designators": "U68,R36,R39,R757-876,#PWR65-84,#PWR129-185,#PWR203-225,JP4-114,JP121-126",
     "variants": []
   },
   "sheets": [
@@ -888,6 +939,166 @@
     [
       "fd186388-3377-4a04-a543-ed12e0a2de30",
       "Switch Redundant"
+    ],
+    [
+      "987ebba3-02a7-4e30-8336-dced31f2842f",
+      "3V3 LVSM SW1"
+    ],
+    [
+      "a04bc2ef-2501-487d-b66f-ea40eb0abb87",
+      "3V3 LVSM SW2"
+    ],
+    [
+      "851b2960-f061-45dc-b799-013ac77fde30",
+      "3V3 LVSM SW3"
+    ],
+    [
+      "d30d692e-7b78-4937-83e4-19515300ad8a",
+      "3V3 LVSM SW4"
+    ],
+    [
+      "a068adb6-381e-41e1-8871-2d8c15e0d459",
+      "3V3 LVSM SW5"
+    ],
+    [
+      "be3a813a-77f1-4eab-a662-eb32fcf6c422",
+      "3V3 LVSM SW6"
+    ],
+    [
+      "91802e6c-1afb-4fed-94e2-fc2e2134c29b",
+      "3V3 LVSM SW7"
+    ],
+    [
+      "94754b10-875a-469d-a6f5-5109cc7b116c",
+      "3V3 LVSM SW8"
+    ],
+    [
+      "649049c0-94f0-4b22-9a06-aa7bd51a473e",
+      "3V3 LVSM SW9"
+    ],
+    [
+      "72bb80d8-22c1-48d1-94dd-def2a6f8438c",
+      "3V3 LVSM SW10"
+    ],
+    [
+      "23c25467-d8cc-4404-a7ff-ef4315fc6fa1",
+      "5V LVSM SW11"
+    ],
+    [
+      "a3978ba1-db29-4b67-a9f1-08f98d2fed34",
+      "5V LVSM SW12"
+    ],
+    [
+      "eb64bfc3-1582-4213-9787-ea7b7b6f2e73",
+      "5V LVSM SW13"
+    ],
+    [
+      "44f318a3-0ee2-4311-b3ff-a349216d712a",
+      "5V LVSM SW14"
+    ],
+    [
+      "0b818645-5075-4e40-aac7-4573efaa632e",
+      "5V LVSM SW15"
+    ],
+    [
+      "49b52672-c64a-42dd-b072-8d8ad3d493af",
+      "5V LVSM SW16"
+    ],
+    [
+      "46172908-243b-4625-a67a-a83af52930cc",
+      "5V LVSM SW17"
+    ],
+    [
+      "7026c39e-7f07-4430-a13c-e17743c814bb",
+      "12V LVSM SW18"
+    ],
+    [
+      "8d2f75ba-f3fd-4bfe-b085-88050ea3bc31",
+      "12V LVSM SW19"
+    ],
+    [
+      "623c98e9-21ae-4567-a902-271c7ac8d788",
+      "12V LVSM SW20"
+    ],
+    [
+      "3e30318f-86ca-45eb-9170-11236d899105",
+      "3V3 LVSM SW1"
+    ],
+    [
+      "5727390e-c83d-4103-bdd3-43e3bfd7046a",
+      "3V3 LVSM SW2"
+    ],
+    [
+      "9cd968cf-fa6a-493f-88f6-b976adf8e1e9",
+      "3V3 LVSM SW3"
+    ],
+    [
+      "0463145a-6caa-4048-8857-634a8ccee552",
+      "3V3 LVSM SW4"
+    ],
+    [
+      "25e39a58-6ad4-4980-a9c0-df134b9f7b0c",
+      "3V3 LVSM SW5"
+    ],
+    [
+      "22639416-f78f-422f-ac1b-776d88c64ae1",
+      "3V3 LVSM SW6"
+    ],
+    [
+      "9f1d812c-63fa-42b2-aae2-83ef104a8389",
+      "3V3 LVSM SW7"
+    ],
+    [
+      "fd5e8a57-5202-4eef-aa22-36ff46c48774",
+      "3V3 LVSM SW8"
+    ],
+    [
+      "6f7e2d63-06ba-47af-8b9a-7001f6a70253",
+      "3V3 LVSM SW9"
+    ],
+    [
+      "d500d7cf-b7b6-451d-8811-b3bf89c9bfd2",
+      "3V3 LVSM SW10"
+    ],
+    [
+      "d757c756-798f-42c6-a68b-40f010dd5e29",
+      "5V LVSM SW11"
+    ],
+    [
+      "d4502567-285b-41dc-b914-c197bb968833",
+      "5V LVSM SW12"
+    ],
+    [
+      "f3b2d728-8450-43f6-8b0f-7768fb1846fe",
+      "5V LVSM SW13"
+    ],
+    [
+      "a7b8fbaf-0df1-4ba9-8648-493c0c6e3d1d",
+      "5V LVSM SW14"
+    ],
+    [
+      "f8912d84-6dfe-4f6f-b4a4-f4d14f8763b0",
+      "5V LVSM SW15"
+    ],
+    [
+      "2d2c9d0d-5b53-479e-920b-db699d746b5d",
+      "5V LVSM SW16"
+    ],
+    [
+      "aab1cdff-60f0-4e24-92b0-4b412495cceb",
+      "5V LVSM SW17"
+    ],
+    [
+      "57caf192-7912-42b3-b711-1cd054e72d62",
+      "12V LVSM SW18"
+    ],
+    [
+      "c355c72b-f1e5-47a7-805a-c83c303a9d6b",
+      "12V LVSM SW19"
+    ],
+    [
+      "50d45713-fda6-4ea0-9544-f27a74267c29",
+      "12V LVSM SW20"
     ]
   ],
   "text_variables": {},

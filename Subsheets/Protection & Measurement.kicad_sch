@@ -883,7 +883,7 @@
 		)
 		(uuid "8468f88a-b37a-4be5-9ded-6cd6501e1d71")
 	)
-	(text "---------------------------------------------------------\nTELEMETRY NOTE: UNREGULATED BUS VOLTAGE SCALING\n---------------------------------------------------------\nDivider Ratio: 1/28 (R_TOP = 270 kΩ, R_BOT_EQ = 10 kΩ)\n\nEXPECTED ADC PIN VOLTAGES:\n- 22V -> 0.786V at ADC\n- 60V -> 2.143V at ADC\n\n(Note: C47 is a low-impedance charge reservoir to satisfy \n     the AD7490's fast sampling gulp without causing voltage droop. Place it closeto the ADC input. \n---------------------------------------------------------"
+	(text "---------------------------------------------------------\nTELEMETRY NOTE: UNREGULATED BUS VOLTAGE SCALING\n---------------------------------------------------------\nDivider Ratio: 1/28 (R_TOP = 270 kΩ, R_BOT_EQ = 10 kΩ)\n\nEXPECTED ADC PIN VOLTAGES:\n- 22V -> 0.786V at ADC\n- 60V -> 2.143V at ADC\n\n(Note: C47 is a low-impedance charge reservoir to satisfy \n     the AD7490's fast sampling gulp without causing voltage droop. Place it close to the ADC input. \n---------------------------------------------------------"
 		(exclude_from_sim no)
 		(at 88.138 133.35 0)
 		(effects

@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0587ad4c-8b95-4b50-9217-9dd65d6c7d19")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 137.16 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1646efc9-1472-4090-9ad7-fdeb1906c208")
+	)
+	(hierarchical_label "PGOOD"
+		(shape output)
+		(at 161.29 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f091198-df3c-4532-b15e-9260f33c8868")
+	)
+	(hierarchical_label "~{FLT}"
+		(shape output)
+		(at 161.29 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c3ef477-790e-4b73-81ec-64b80ffeaefa")
+	)
+	(hierarchical_label "OUT"
+		(shape output)
+		(at 161.29 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8471a5c6-d5e2-4c38-9ac1-d0e547612e5f")
+	)
+	(hierarchical_label "IN"
+		(shape input)
+		(at 137.16 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8cde4af7-92d5-4519-955b-fe6a8c8b2bbc")
+	)
+	(hierarchical_label "IMON"
+		(shape output)
+		(at 161.29 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bdbb6909-b072-49fa-b8d1-a0f3fbf44c8d")
+	)
+)
